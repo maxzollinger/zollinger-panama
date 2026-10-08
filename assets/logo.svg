@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" role="img" aria-label="Zollinger Panama Real Estate">
+  <style>
+    .w{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Inter","Helvetica Neue",Arial,sans-serif;font-weight:700;fill:#1d1d1f;letter-spacing:7px}
+    .s{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Inter","Helvetica Neue",Arial,sans-serif;font-weight:500;fill:#6e6e73;letter-spacing:3.5px}
+    .r{fill:#b08d57}
+  </style>
+  <text x="12" y="34" class="w" font-size="28">ZOLLINGER</text>
+  <rect class="r" x="12" y="44" width="18" height="1.4"/>
+  <text x="36" y="54" class="s" font-size="9">PANAMA REAL ESTATE</text>
+</svg>
