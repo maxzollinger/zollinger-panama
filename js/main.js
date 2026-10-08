@@ -152,9 +152,17 @@ function renderResidenceCards(dict, lang) {
           </div>
           <div class="tile__media">
             <picture>
-              <source srcset="${img.src}&w=1600" media="(min-width: 1024px)">
-              <source srcset="${img.src}&w=1000" media="(min-width: 600px)">
-              <img src="${img.src}&w=800" alt="${img.alt[lang]}" loading="lazy" width="1600" height="1066">
+              ${
+                img.local
+                  ? `<img src="${img.src1200}"
+                           srcset="${img.src1200} 1200w, ${img.src2400} 2400w"
+                           sizes="(min-width: 1024px) 1200px, 100vw"
+                           alt="${img.alt[lang]}" loading="lazy"
+                           width="2400" height="1350">`
+                  : `<source srcset="${img.src}&w=1600" media="(min-width: 1024px)">
+                     <source srcset="${img.src}&w=1000" media="(min-width: 600px)">
+                     <img src="${img.src}&w=800" alt="${img.alt[lang]}" loading="lazy" width="1600" height="1066">`
+              }
             </picture>
           </div>
         </article>`;
@@ -380,11 +388,16 @@ const CARD_IMAGES = {
     }
   },
   townhome: {
-    src: U("photo-1613977257592-4a9a32f9141d"),
+    // Local file — replaces the previously broken Unsplash ID
+    // photo-1613977257592-4a9a32f9141d (404).
+    src: "./assets/images/townhomes-2400.jpg",
+    src1200: "./assets/images/townhomes-1200.jpg",
+    src2400: "./assets/images/townhomes-2400.jpg",
+    local: true,
     alt: {
-      es: "Townhome moderno con jardín privado y arquitectura minimalista",
-      en: "Modern townhome with private garden and minimalist architecture",
-      de: "Modernes Townhome mit privatem Garten und minimalistischer Architektur"
+      es: "Residencia moderna con grandes ventanales y amplio césped verde",
+      en: "Modern residence with large windows and a wide green lawn",
+      de: "Moderne Residenz mit grossen Fenstern und weiter grüner Rasenfläche"
     }
   }
 };
@@ -393,7 +406,10 @@ const HERO_IMG = U("photo-1600585154526-990dced4db0d");       // contemporary vi
 const INTRO_IMG = U("photo-1613977257363-707ba9348227");      // modern tropical home at dusk
 const AMENITIES_IMG = U("photo-1600566753376-12c8ab7fb75b");  // luxury home with landscaped gardens
 const LOCATION_IMG = U("photo-1512917774080-9991f1c4c750");   // contemporary architecture, Panama City context
-const INVEST_IMG = U("photo-1577995201316-cd0a9eb3eca4");     // Panama City skyline
+// Local file — replaces the previously broken Unsplash ID
+// photo-1577995201316-cd0a9eb3eca4 (404). Downloaded in two sizes.
+const INVEST_IMG = "./assets/images/investment-2400.jpg";
+const INVEST_IMG_1200 = "./assets/images/investment-1200.jpg";
 const ABOUT_IMG = U("photo-1600047509807-ba8f99d2cdde");      // minimalist interior with garden light
 const GALLERY_IMGS = [
   U("photo-1613977257363-707ba9348227"),
@@ -515,8 +531,17 @@ function openModelModal(key) {
   modal.querySelector("[data-m-close]").setAttribute("aria-label", dict.modal.close);
 
   const img = modal.querySelector("[data-m-img]");
-  img.src = `${CARD_IMAGES[key].src}&w=1600`;
-  img.alt = CARD_IMAGES[key].alt[lang];
+  const ci = CARD_IMAGES[key];
+  if (ci.local) {
+    img.src = ci.src2400;
+    img.srcset = `${ci.src1200} 1200w, ${ci.src2400} 2400w`;
+    img.sizes = "(min-width: 800px) 500px, 100vw";
+  } else {
+    img.src = `${ci.src}&w=1600`;
+    img.removeAttribute("srcset");
+    img.removeAttribute("sizes");
+  }
+  img.alt = ci.alt[lang];
 
   const list = modal.querySelector("[data-m-features]");
   list.innerHTML = m.features.map((f) => `<li>${f}</li>`).join("");
@@ -821,7 +846,16 @@ function placeStaticImages() {
     const el = document.getElementById(id);
     if (!el) continue;
     const [src] = map[id];
-    el.src = `${src}&w=2000`;
+    if (src.startsWith("./")) {
+      // Local file — set a responsive srcset.
+      el.src = src;
+      if (id === "img-invest") {
+        el.srcset = `${INVEST_IMG_1200} 1200w, ${INVEST_IMG} 2400w`;
+        el.sizes = "(min-width: 1200px) 1136px, 100vw";
+      }
+    } else {
+      el.src = `${src}&w=2000`;
+    }
   }
 }
 

@@ -105,10 +105,10 @@ Positioning is **golf-front community in Panama City**, so prefer: modern luxury
 | Intro (modern tropical home) | https://images.unsplash.com/photo-1613977257363-707ba9348227 |
 | Residences card (interior, garden light) | https://images.unsplash.com/photo-1600596542815-ffad4c1539a9 |
 | Penthouses card (terrace at sunset) | https://images.unsplash.com/photo-1600210492486-724fe5c67fb0 |
-| Townhomes card (private garden) | https://images.unsplash.com/photo-1613977257592-4a9a32f9141d |
+| Townhomes card (modern home + lawn) | `./assets/images/townhomes-2400.jpg` (+ `-1200.jpg` for srcset) — local file |
 | Amenities (landscaped home) | https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b |
 | Location (contemporary architecture) | https://images.unsplash.com/photo-1512917774080-9991f1c4c750 |
-| Investment (Panama City skyline) | https://images.unsplash.com/photo-1577995201316-cd0a9eb3eca4 |
+| Investment (Panama City skyline) | `./assets/images/investment-2400.jpg` (+ `-1200.jpg` for srcset) — local file |
 | About (minimalist interior) | https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde |
 | Gallery 1 | https://images.unsplash.com/photo-1613977257363-707ba9348227 |
 | Gallery 2 | https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b |
