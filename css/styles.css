@@ -1,7 +1,7 @@
 /* ============================================================
    Zollinger Panama Real Estate — styles.css
    Apple-inspired: typography, spacing, motion, product tiles.
-   One accent color: #b08d57 (refined ocean/sand gold).
+   Primary accent: #1f4d3a (deep golf green). Secondary: #b08d57 (sand/gold).
    ============================================================ */
 
 /* ---------- tokens ---------- */
@@ -13,8 +13,10 @@
   --text:#1d1d1f;
   --muted:#6e6e73;
   --black:#000000;
-  --accent:#b08d57;
-  --accent-dark:#8a6b3f;
+  --accent:#1f4d3a;
+  --accent-dark:#163728;
+  --accent-2:#b08d57;
+  --accent-2-dark:#8a6b3f;
   --radius:22px;
   --radius-sm:12px;
   --radius-lg:28px;
@@ -166,7 +168,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .hero__media{position:absolute;inset:0;z-index:0}
 .hero__media img{
   width:100%;height:100%;object-fit:cover;
-  background:linear-gradient(135deg,#2a3b4a 0%,#0f1a24 100%);
+  background:linear-gradient(135deg,#1b3024 0%,#0a1810 100%);
   transform:scale(1.05);transition:transform 1.4s var(--ease-out);
   will-change:transform;
 }
@@ -204,7 +206,7 @@ button.pill-link{cursor:pointer}
 
 /* ---------- intro ---------- */
 .intro__image{max-width:1200px;margin:60px auto 0;padding:0 32px}
-.intro__image img{border-radius:var(--radius);box-shadow:var(--shadow-md);aspect-ratio:16/9;object-fit:cover;background:linear-gradient(135deg,#d9c6a6,#b08d57)}
+.intro__image img{border-radius:var(--radius);box-shadow:var(--shadow-md);aspect-ratio:16/9;object-fit:cover;background:linear-gradient(135deg,#d9c6a6,#1f4d3a)}
 
 /* ---------- sticky sub-nav ---------- */
 .subnav{
@@ -252,7 +254,7 @@ button.pill-link{cursor:pointer}
 .tile__media img{
   width:100%;border-radius:var(--radius-lg);box-shadow:var(--shadow-md);
   aspect-ratio:3/2;object-fit:cover;
-  background:linear-gradient(135deg,#e7dcc8,#b08d57);
+  background:linear-gradient(135deg,#e7dcc8,#1f4d3a);
 }
 @media (max-width:640px){
   .tile{padding:60px 20px}
@@ -275,11 +277,11 @@ button.pill-link{cursor:pointer}
 }
 .compare tbody th{text-align:left;color:var(--muted);font-weight:500}
 .compare tbody tr:last-child th,.compare tbody tr:last-child td{border-bottom:0}
-.compare tbody tr:hover{background:rgba(176,141,87,.04)}
+.compare tbody tr:hover{background:rgba(31,77,58,.04)}
 
 /* ---------- amenities ---------- */
 .amenities-image{max-width:1200px;margin:50px auto 60px;padding:0 0}
-.amenities-image img{border-radius:var(--radius);aspect-ratio:21/9;object-fit:cover;background:linear-gradient(135deg,#1a2b3a,#000)}
+.amenities-image img{border-radius:var(--radius);aspect-ratio:21/9;object-fit:cover;background:linear-gradient(135deg,#1b2e23,#000)}
 .amenities-grid{
   display:grid;gap:14px;
   grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
@@ -315,7 +317,7 @@ button.pill-link{cursor:pointer}
 .location-image img,.location-map iframe{
   width:100%;height:100%;min-height:360px;
   border-radius:var(--radius);border:0;object-fit:cover;
-  background:linear-gradient(135deg,#1a2b3a,#000);
+  background:linear-gradient(135deg,#1b2e23,#000);
   filter:grayscale(0);
 }
 .location-map{overflow:hidden;border-radius:var(--radius)}
@@ -335,7 +337,7 @@ button.pill-link{cursor:pointer}
 
 /* ---------- investment ---------- */
 .invest-image{max-width:1200px;margin:40px auto 60px;padding:0 0}
-.invest-image img{border-radius:var(--radius);aspect-ratio:21/9;object-fit:cover;background:linear-gradient(135deg,#dcccb0,#b08d57)}
+.invest-image img{border-radius:var(--radius);aspect-ratio:21/9;object-fit:cover;background:linear-gradient(135deg,#dcccb0,#8a6b3f)}
 .invest-grid{
   display:grid;gap:18px;
   grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
@@ -385,7 +387,7 @@ button.pill-link{cursor:pointer}
 @media (max-width:640px){.gallery__slide{flex:0 0 92%}}
 .gallery__slide img{
   width:100%;height:100%;object-fit:cover;
-  background:linear-gradient(135deg,#dcccb0,#b08d57);
+  background:linear-gradient(135deg,#dcccb0,#1f4d3a);
 }
 .gallery__arrow{
   position:absolute;top:50%;transform:translateY(-50%);
@@ -430,7 +432,7 @@ button.pill-link{cursor:pointer}
   transition:border-color .2s,box-shadow .2s;
 }
 .field input:focus,.field select:focus,.field textarea:focus{
-  outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(176,141,87,.14);
+  outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(31,77,58,.14);
 }
 .field--full{grid-column:1/-1}
 .field textarea{resize:vertical;min-height:120px}
@@ -503,7 +505,7 @@ button.pill-link{cursor:pointer}
 .modal[aria-hidden="false"] .modal__panel{transform:translateY(0)}
 .modal__panel--text{grid-template-columns:1fr;max-width:640px}
 @media (max-width:800px){.modal__panel{grid-template-columns:1fr}}
-.modal__media img{width:100%;height:100%;object-fit:cover;min-height:260px;background:linear-gradient(135deg,#e7dcc8,#b08d57)}
+.modal__media img{width:100%;height:100%;object-fit:cover;min-height:260px;background:linear-gradient(135deg,#e7dcc8,#1f4d3a)}
 .modal__body{padding:40px 36px;overflow-y:auto;max-height:85vh}
 .modal__body h3{font-size:28px;font-weight:700;letter-spacing:-.02em;margin:0 0 10px;line-height:1.1}
 .modal__price{color:var(--accent-dark);font-size:17px;margin:0 0 24px;font-weight:500}
@@ -534,5 +536,5 @@ button.pill-link{cursor:pointer}
 }
 
 /* ---------- extra polish ---------- */
-::selection{background:rgba(176,141,87,.3);color:var(--text)}
+::selection{background:rgba(31,77,58,.28);color:var(--text)}
 img{content-visibility:auto}

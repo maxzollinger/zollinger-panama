@@ -93,21 +93,23 @@ All image URLs are grouped in `js/main.js`:
 - `CARD_IMAGES.residence / penthouse / townhome` (object with `src` + alt text per language)
 - `GALLERY_IMGS` (array)
 
-The `U(id)` helper builds Unsplash URLs with `?auto=format&fit=crop&q=80`. For your own renders, just replace the string with any URL (or a local `./assets/img/your-render.jpg`). Every image sits on a CSS gradient background so it still looks good if a URL fails.
+The `U(id)` helper builds Unsplash URLs with `?auto=format&fit=crop&q=80`. For your own renders, just replace the string with any URL (or a local `./assets/img/your-render.jpg`). Every image sits on a CSS gradient background (deep green / sand / stone) so it still looks good if a URL fails.
 
 ### Current Unsplash URLs (replace with your renders)
 
+Positioning is **golf-front community in Panama City**, so prefer: modern luxury homes next to green fairways, tropical gardens, palm-lined driveways, lakes, contemporary architecture with big glass facades, elegant minimalist interiors with garden views, and golf-course aerials.
+
 | Slot | ID / URL |
 |---|---|
-| Hero (ocean/coast) | https://images.unsplash.com/photo-1507525428034-b723cf961d3e |
-| Intro | https://images.unsplash.com/photo-1613490493576-7fde63acd811 |
-| Residences card | https://images.unsplash.com/photo-1600596542815-ffad4c1539a9 |
-| Penthouses card | https://images.unsplash.com/photo-1600210492486-724fe5c67fb0 |
-| Townhomes card | https://images.unsplash.com/photo-1613977257592-4a9a32f9141d |
-| Amenities (pool) | https://images.unsplash.com/photo-1571896349842-33c89424de2d |
-| Location (aerial) | https://images.unsplash.com/photo-1506929562872-bb421503ef21 |
-| Investment (city) | https://images.unsplash.com/photo-1577995201316-cd0a9eb3eca4 |
-| About | https://images.unsplash.com/photo-1512917774080-9991f1c4c750 |
+| Hero (luxury home + greenery) | https://images.unsplash.com/photo-1600585154526-990dced4db0d |
+| Intro (modern tropical home) | https://images.unsplash.com/photo-1613977257363-707ba9348227 |
+| Residences card (interior, garden light) | https://images.unsplash.com/photo-1600596542815-ffad4c1539a9 |
+| Penthouses card (terrace at sunset) | https://images.unsplash.com/photo-1600210492486-724fe5c67fb0 |
+| Townhomes card (private garden) | https://images.unsplash.com/photo-1613977257592-4a9a32f9141d |
+| Amenities (landscaped home) | https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b |
+| Location (contemporary architecture) | https://images.unsplash.com/photo-1512917774080-9991f1c4c750 |
+| Investment (Panama City skyline) | https://images.unsplash.com/photo-1577995201316-cd0a9eb3eca4 |
+| About (minimalist interior) | https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde |
 | Gallery 1 | https://images.unsplash.com/photo-1613977257363-707ba9348227 |
 | Gallery 2 | https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b |
 | Gallery 3 | https://images.unsplash.com/photo-1540541338287-41700207dee6 |
@@ -115,7 +117,7 @@ The `U(id)` helper builds Unsplash URLs with `?auto=format&fit=crop&q=80`. For y
 | Gallery 5 | https://images.unsplash.com/photo-1600585154526-990dced4db0d |
 | Gallery 6 | https://images.unsplash.com/photo-1512917774080-9991f1c4c750 |
 | Gallery 7 | https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde |
-| Gallery 8 | https://images.unsplash.com/photo-1613977257363-707ba9348227 |
+| Gallery 8 | https://images.unsplash.com/photo-1613977257592-4a9a32f9141d |
 
 Append `&w=1600&q=80&auto=format&fit=crop` for a specific width.
 
@@ -147,9 +149,11 @@ That's it — `main.js` will POST the JSON instead of opening the mail client.
 Change the accent, radii, shadows etc. at the top of `css/styles.css` under `:root`.
 
 Currently:
-- Accent: `#b08d57` (refined ocean/sand gold)
+- Primary accent: `#1f4d3a` (deep golf green)
+- Secondary accent: `#b08d57` (sand / gold) — exposed as `--accent-2`
 - Text: `#1d1d1f` · Muted: `#6e6e73`
 - Backgrounds: white, `#f5f5f7`, black
+- Fallback gradients: deep green, sand and stone tones
 - Font: system stack + Inter fallback (loaded from Google Fonts)
 
 ## Accessibility & SEO

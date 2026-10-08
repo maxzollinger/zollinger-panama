@@ -8,9 +8,9 @@
 window.ZOLL_I18N = {
   es: {
     meta: {
-      title: "Zollinger Panamá — Residencias de lujo frente al Pacífico",
+      title: "Zollinger Panamá — Residencias de lujo frente al golf en Santa María",
       description:
-        "Residencias, penthouses y townhomes de lujo en Santa María, Panamá. Vida frente al mar y al golf, a 10 minutos de la Ciudad de Panamá.",
+        "Residencias, penthouses y townhomes de lujo frente al campo de golf en Santa María, Ciudad de Panamá. Comunidad cerrada entre el verde, a 10 minutos del centro.",
       lang_code: "es-PA",
       lang_label: "Panamá — Español"
     },
@@ -27,10 +27,10 @@ window.ZOLL_I18N = {
       close_menu: "Cerrar menú"
     },
     hero: {
-      eyebrow: "Santa María, Panamá",
-      title: "Vivir frente al Pacífico.",
+      eyebrow: "Santa María, Ciudad de Panamá",
+      title: "Vivir entre el verde.",
       subtitle:
-        "Residencias de lujo rodeadas de naturaleza, golf y mar — a diez minutos de la Ciudad de Panamá.",
+        "Residencias de lujo frente al campo de golf en Santa María, Ciudad de Panamá.",
       cta_primary: "Conocer las residencias",
       cta_secondary: "Solicitar precios"
     },
@@ -38,7 +38,7 @@ window.ZOLL_I18N = {
       eyebrow: "Nueva colección",
       title: "Una residencia para cada estilo de vida.",
       body:
-        "Diseño refinado, vida frente al golf, vistas al océano y un entorno que respira naturaleza. Nuestra arquitectura se piensa para disfrutar cada hora del día — del amanecer en la terraza a la noche en la pool deck."
+        "Diseño refinado, vida frente al campo de golf, jardines tropicales y vistas al verde — con la ciudad a diez minutos. Nuestra arquitectura se piensa para disfrutar cada hora del día, del amanecer en la terraza al final de tarde en la pool deck."
     },
     subnav: {
       overview: "Visión general",
@@ -53,7 +53,7 @@ window.ZOLL_I18N = {
       eyebrow: "Las residencias",
       title: "Tres formas de vivir Santa María.",
       subtitle:
-        "Elija el formato que mejor se ajuste a su estilo de vida — todos con los acabados y amenidades Zollinger."
+        "Residencias, penthouses y townhomes frente al campo de golf — todos con los acabados y la colección de amenidades Zollinger."
     },
     models: {
       residence: {
@@ -95,7 +95,7 @@ window.ZOLL_I18N = {
           "Comedor independiente",
           "Cuarto de servicio",
           "Área de lavandería",
-          "Balcón amplio con vista panorámica"
+          "Balcón amplio con vista al campo de golf y, en los pisos superiores, a la Bahía de Panamá al fondo"
         ],
         cta: "Ver detalles"
       },
@@ -145,7 +145,7 @@ window.ZOLL_I18N = {
       expand: "Ver las 42 amenidades",
       collapse: "Ver menos",
       list: [
-        "Piscina infinity frente al océano",
+        "Piscina infinity con vista al campo",
         "Gimnasio completo",
         "Sala de spinning",
         "Cancha de pickleball",
@@ -153,7 +153,7 @@ window.ZOLL_I18N = {
         "Wine deck con lockers privados",
         "Área de BBQ y parrillas",
         "Área de co-working",
-        "Sala de reuniones",
+        "Golf cart parking",
         "Kids club",
         "Zen pet garden",
         "Bike garage",
@@ -169,11 +169,11 @@ window.ZOLL_I18N = {
         "Acceso al campo de golf",
         "Jardines paisajísticos",
         "Sendero para jogging",
-        "Acceso al beach club",
+        "Acceso al clubhouse",
         "Terraza en rooftop",
         "Salón de fiestas",
         "Jacuzzi exterior",
-        "Área de hamacas",
+        "Sendero junto al lago",
         "Cancha de paddle",
         "Putting green",
         "Golf simulator",
@@ -184,24 +184,25 @@ window.ZOLL_I18N = {
         "Pool bar",
         "Área infantil al aire libre",
         "Fire pit lounge",
-        "Mirador panorámico",
+        "Cancha de tenis",
         "Dog wash station",
         "Delivery lockers inteligentes"
       ]
     },
     location: {
       eyebrow: "Ubicación",
-      title: "Santa María, en el corazón de Panamá.",
+      title: "Santa María, dentro de Ciudad de Panamá.",
       subtitle:
-        "A diez minutos del centro de la Ciudad de Panamá, dentro del club de golf Santa María — una comunidad consolidada, segura y conectada.",
+        "Comunidad cerrada dentro del club de golf Santa María, junto a Costa del Este y con acceso directo al Corredor Sur — a diez minutos del centro de la ciudad.",
       map_label: "Mapa de Santa María, Panamá",
       distances_title: "Distancias aproximadas",
       distances: [
-        { place: "Ciudad de Panamá", time: "≈ 10 min" },
-        { place: "Aeropuerto Internacional de Tocumen", time: "≈ 20 min" },
-        { place: "Playas del Pacífico", time: "≈ 60 min" },
-        { place: "Campo de golf Santa María", time: "0 min — in situ" },
-        { place: "Colegios internacionales", time: "≈ 10–15 min" },
+        { place: "Campo de golf Santa María", time: "in situ — 0 min" },
+        { place: "Corredor Sur (acceso)", time: "≈ 2 min" },
+        { place: "Costa del Este", time: "≈ 5 min" },
+        { place: "Centro de negocios de la ciudad", time: "≈ 10 min" },
+        { place: "Aeropuerto Internacional de Tocumen", time: "≈ 15 min" },
+        { place: "Colegios internacionales", time: "≈ 5–10 min" },
         { place: "Hospitales de referencia", time: "≈ 10 min" },
         { place: "Multiplaza & centros comerciales", time: "≈ 10 min" }
       ],
@@ -251,7 +252,7 @@ window.ZOLL_I18N = {
       eyebrow: "Nosotros",
       title: "Estándar suizo, alma panameña.",
       body:
-        "Zollinger Panamá nace del encuentro entre la precisión suiza y la vida frente al Pacífico. Cada residencia se concibe con los principios que heredamos de generaciones constructoras: materiales honestos, geometría clara y un cuidado obsesivo por el detalle.",
+        "Zollinger Panamá construye residencias de lujo en distintas zonas del país, con la precisión que heredamos de generaciones de constructores suizos: materiales honestos, geometría clara y un cuidado obsesivo por el detalle. En Santa María el foco es la vida entre el verde — arquitectura integrada al campo de golf, a los jardines y a la luz tropical de Ciudad de Panamá.",
       timeline_title: "Así construimos",
       timeline: [
         {
@@ -360,7 +361,7 @@ window.ZOLL_I18N = {
         "Hola Zollinger Panamá, me gustaría recibir precios y disponibilidad de las residencias en Santa María."
     },
     footer: {
-      tagline: "Residencias de lujo frente al Pacífico — Santa María, Panamá.",
+      tagline: "Residencias de lujo frente al golf — Santa María, Ciudad de Panamá.",
       col_residences: "Residencias",
       col_company: "Compañía",
       col_investment: "Inversión",
@@ -407,9 +408,9 @@ window.ZOLL_I18N = {
 
   en: {
     meta: {
-      title: "Zollinger Panama — Oceanfront luxury residences",
+      title: "Zollinger Panama — Golf-front luxury residences in Santa María",
       description:
-        "Luxury residences, penthouses and townhomes in Santa María, Panama. Golf-front and ocean views, ten minutes from Panama City.",
+        "Luxury residences, penthouses and townhomes golf-front in Santa María, Panama City. A green, gated community ten minutes from downtown.",
       lang_code: "en",
       lang_label: "English"
     },
@@ -426,10 +427,10 @@ window.ZOLL_I18N = {
       close_menu: "Close menu"
     },
     hero: {
-      eyebrow: "Santa María, Panama",
-      title: "Living on the Pacific.",
+      eyebrow: "Santa María, Panama City",
+      title: "Living among the green.",
       subtitle:
-        "Luxury residences surrounded by nature, golf and ocean — ten minutes from Panama City.",
+        "Golf-front luxury residences in Santa María, Panama City.",
       cta_primary: "Explore the residences",
       cta_secondary: "Request prices"
     },
@@ -437,7 +438,7 @@ window.ZOLL_I18N = {
       eyebrow: "New collection",
       title: "A residence for every way of life.",
       body:
-        "Refined design, golf-front living, ocean views and a setting that breathes nature. Our architecture is made to be lived every hour of the day — from sunrise on the terrace to late nights on the pool deck."
+        "Refined design, golf-front living, lush gardens and green views — with the city only ten minutes away. Our architecture is made to be lived every hour of the day, from sunrise on the terrace to late afternoon on the pool deck."
     },
     subnav: {
       overview: "Overview",
@@ -452,7 +453,7 @@ window.ZOLL_I18N = {
       eyebrow: "The residences",
       title: "Three ways to live Santa María.",
       subtitle:
-        "Pick the format that suits your lifestyle — all delivered with Zollinger finishes and the full amenity collection."
+        "Residences, penthouses and townhomes along the fairways — all delivered with Zollinger finishes and the full amenity collection."
     },
     models: {
       residence: {
@@ -494,7 +495,7 @@ window.ZOLL_I18N = {
           "Separate dining area",
           "Service room",
           "Laundry area",
-          "Spacious balcony with panoramic view"
+          "Spacious balcony overlooking the fairways — with distant views toward the Bay of Panama from upper floors"
         ],
         cta: "See details"
       },
@@ -543,7 +544,7 @@ window.ZOLL_I18N = {
       expand: "See all 42 amenities",
       collapse: "Show less",
       list: [
-        "Oceanfront infinity pool",
+        "Infinity pool overlooking the fairways",
         "Full gym",
         "Spinning room",
         "Pickleball court",
@@ -551,7 +552,7 @@ window.ZOLL_I18N = {
         "Wine deck with private lockers",
         "BBQ & grill area",
         "Co-working area",
-        "Meeting room",
+        "Golf cart parking",
         "Kids club",
         "Zen pet garden",
         "Bike garage",
@@ -567,11 +568,11 @@ window.ZOLL_I18N = {
         "Golf course access",
         "Landscaped gardens",
         "Jogging path",
-        "Beach club access",
+        "Clubhouse access",
         "Rooftop terrace",
         "Party room",
         "Outdoor jacuzzi",
-        "Hammock area",
+        "Lakeside walking trail",
         "Paddle court",
         "Putting green",
         "Golf simulator",
@@ -582,24 +583,25 @@ window.ZOLL_I18N = {
         "Pool bar",
         "Outdoor kids playground",
         "Fire pit lounge",
-        "Panoramic lookout",
+        "Tennis court",
         "Dog wash station",
         "Smart delivery lockers"
       ]
     },
     location: {
       eyebrow: "Location",
-      title: "Santa María, at the heart of Panama.",
+      title: "Santa María, inside Panama City.",
       subtitle:
-        "Ten minutes from downtown Panama City, inside the Santa María Golf & Country Club — a consolidated, secure and connected community.",
+        "A gated community within the Santa María Golf & Country Club, next to Costa del Este with direct access to the Corredor Sur — ten minutes from downtown.",
       map_label: "Map of Santa María, Panama",
       distances_title: "Approximate distances",
       distances: [
-        { place: "Panama City", time: "≈ 10 min" },
-        { place: "Tocumen International Airport", time: "≈ 20 min" },
-        { place: "Pacific beaches", time: "≈ 60 min" },
-        { place: "Santa María Golf Course", time: "0 min — on site" },
-        { place: "International schools", time: "≈ 10–15 min" },
+        { place: "Santa María Golf Course", time: "on site — 0 min" },
+        { place: "Corredor Sur (on-ramp)", time: "≈ 2 min" },
+        { place: "Costa del Este", time: "≈ 5 min" },
+        { place: "City business district", time: "≈ 10 min" },
+        { place: "Tocumen International Airport", time: "≈ 15 min" },
+        { place: "International schools", time: "≈ 5–10 min" },
         { place: "Reference hospitals", time: "≈ 10 min" },
         { place: "Multiplaza & shopping malls", time: "≈ 10 min" }
       ],
@@ -649,7 +651,7 @@ window.ZOLL_I18N = {
       eyebrow: "About",
       title: "Swiss standard, Panamanian soul.",
       body:
-        "Zollinger Panama grew out of the meeting between Swiss precision and life on the Pacific. Every residence is designed with the principles we inherited from generations of builders: honest materials, clear geometry and an obsessive attention to detail.",
+        "Zollinger Panama builds luxury residences across Panama with the precision we inherited from generations of Swiss builders: honest materials, clear geometry and an obsessive attention to detail. In Santa María our focus is life among the green — architecture woven into the golf course, the gardens and the tropical light of Panama City.",
       timeline_title: "How we build",
       timeline: [
         {
@@ -758,7 +760,7 @@ window.ZOLL_I18N = {
         "Hello Zollinger Panama, I'd like to receive prices and availability for the Santa María residences."
     },
     footer: {
-      tagline: "Oceanfront luxury residences — Santa María, Panama.",
+      tagline: "Golf-front luxury residences — Santa María, Panama City.",
       col_residences: "Residences",
       col_company: "Company",
       col_investment: "Investment",
@@ -805,9 +807,9 @@ window.ZOLL_I18N = {
 
   de: {
     meta: {
-      title: "Zollinger Panama — Luxusresidenzen am Pazifik",
+      title: "Zollinger Panama — Luxusresidenzen am Golfplatz in Santa María",
       description:
-        "Luxusresidenzen, Penthouses und Townhomes in Santa María, Panama. Golf- und Meerblick, zehn Minuten von Panama-Stadt.",
+        "Luxusresidenzen, Penthouses und Townhomes direkt am Golfplatz in Santa María, Panama-Stadt. Grün, exklusiv und zehn Minuten vom Zentrum.",
       lang_code: "de",
       lang_label: "Deutsch"
     },
@@ -824,10 +826,10 @@ window.ZOLL_I18N = {
       close_menu: "Menü schließen"
     },
     hero: {
-      eyebrow: "Santa María, Panama",
-      title: "Leben am Pazifik.",
+      eyebrow: "Santa María, Panama-Stadt",
+      title: "Leben im Grünen.",
       subtitle:
-        "Luxusresidenzen, umgeben von Natur, Golf und Meer — zehn Minuten von Panama-Stadt.",
+        "Luxusresidenzen direkt am Golfplatz in Santa María, Panama-Stadt.",
       cta_primary: "Residenzen entdecken",
       cta_secondary: "Preise anfragen"
     },
@@ -835,7 +837,7 @@ window.ZOLL_I18N = {
       eyebrow: "Neue Kollektion",
       title: "Eine Residenz für jede Lebensart.",
       body:
-        "Zurückhaltendes Design, Leben am Golfplatz, Meerblick und ein Umfeld, das Natur atmet. Unsere Architektur ist dafür gemacht, zu jeder Tageszeit gelebt zu werden — vom Sonnenaufgang auf der Terrasse bis zum späten Abend am Pool."
+        "Zurückhaltendes Design, Leben am Golfplatz, tropische Gärten und üppiger Grünblick — mit der Stadt nur zehn Minuten entfernt. Unsere Architektur ist dafür gemacht, zu jeder Tageszeit gelebt zu werden: vom Sonnenaufgang auf der Terrasse bis zum späten Nachmittag am Pool."
     },
     subnav: {
       overview: "Übersicht",
@@ -850,7 +852,7 @@ window.ZOLL_I18N = {
       eyebrow: "Die Residenzen",
       title: "Drei Arten, Santa María zu leben.",
       subtitle:
-        "Wählen Sie das Format, das zu Ihrem Lebensstil passt — alle in Zollinger-Ausführung und mit dem vollen Annehmlichkeiten-Paket."
+        "Residenzen, Penthouses und Townhomes entlang der Fairways — alle in Zollinger-Ausführung und mit dem vollen Annehmlichkeiten-Paket."
     },
     models: {
       residence: {
@@ -892,7 +894,7 @@ window.ZOLL_I18N = {
           "Separater Essbereich",
           "Hauswirtschaftsraum",
           "Waschraum",
-          "Grosser Balkon mit Panoramablick"
+          "Grosser Balkon mit Blick auf den Golfplatz — aus den oberen Geschossen bis zur Bucht von Panama"
         ],
         cta: "Details ansehen"
       },
@@ -942,7 +944,7 @@ window.ZOLL_I18N = {
       expand: "Alle 42 Annehmlichkeiten ansehen",
       collapse: "Weniger anzeigen",
       list: [
-        "Infinity-Pool am Meer",
+        "Infinity-Pool mit Fairway-Blick",
         "Voll ausgestatteter Fitnessbereich",
         "Spinning-Raum",
         "Pickleball-Platz",
@@ -950,7 +952,7 @@ window.ZOLL_I18N = {
         "Wine-Deck mit privaten Lockern",
         "BBQ- und Grillbereich",
         "Co-Working-Bereich",
-        "Besprechungsraum",
+        "Golfcart-Parkplatz",
         "Kids-Club",
         "Zen-Garten für Haustiere",
         "Fahrradgarage",
@@ -966,11 +968,11 @@ window.ZOLL_I18N = {
         "Zugang zum Golfplatz",
         "Angelegte Gärten",
         "Joggingpfad",
-        "Zugang zum Beach-Club",
+        "Zugang zum Clubhouse",
         "Dachterrasse",
         "Partyraum",
         "Aussen-Jacuzzi",
-        "Hängemattenbereich",
+        "Spazierweg am See",
         "Paddle-Court",
         "Putting-Green",
         "Golfsimulator",
@@ -981,24 +983,25 @@ window.ZOLL_I18N = {
         "Pool-Bar",
         "Kinderspielplatz im Freien",
         "Fire-Pit-Lounge",
-        "Panorama-Aussichtspunkt",
+        "Tennisplatz",
         "Hundewaschplatz",
         "Smart-Paketboxen"
       ]
     },
     location: {
       eyebrow: "Lage",
-      title: "Santa María, im Herzen Panamas.",
+      title: "Santa María, mitten in Panama-Stadt.",
       subtitle:
-        "Zehn Minuten vom Zentrum von Panama-Stadt, innerhalb des Santa María Golf & Country Club — eine etablierte, sichere und bestens angebundene Community.",
+        "Geschlossene Community innerhalb des Santa María Golf & Country Club, neben Costa del Este und mit direktem Zugang zum Corredor Sur — zehn Minuten vom Stadtzentrum.",
       map_label: "Karte von Santa María, Panama",
       distances_title: "Ungefähre Distanzen",
       distances: [
-        { place: "Panama-Stadt", time: "≈ 10 Min." },
-        { place: "Internationaler Flughafen Tocumen", time: "≈ 20 Min." },
-        { place: "Pazifikstrände", time: "≈ 60 Min." },
-        { place: "Santa María Golfplatz", time: "0 Min. — vor Ort" },
-        { place: "Internationale Schulen", time: "≈ 10–15 Min." },
+        { place: "Santa María Golfplatz", time: "vor Ort — 0 Min." },
+        { place: "Corredor Sur (Auffahrt)", time: "≈ 2 Min." },
+        { place: "Costa del Este", time: "≈ 5 Min." },
+        { place: "Geschäftsviertel der Stadt", time: "≈ 10 Min." },
+        { place: "Internationaler Flughafen Tocumen", time: "≈ 15 Min." },
+        { place: "Internationale Schulen", time: "≈ 5–10 Min." },
         { place: "Referenzkrankenhäuser", time: "≈ 10 Min." },
         { place: "Multiplaza & Einkaufszentren", time: "≈ 10 Min." }
       ],
@@ -1048,7 +1051,7 @@ window.ZOLL_I18N = {
       eyebrow: "Über uns",
       title: "Schweizer Standard, panamaische Seele.",
       body:
-        "Zollinger Panama entstand aus der Begegnung von Schweizer Präzision und dem Leben am Pazifik. Jede Residenz folgt den Prinzipien, die wir aus Generationen von Bauhandwerk übernommen haben: ehrliche Materialien, klare Geometrie und besessene Liebe zum Detail.",
+        "Zollinger Panama baut Luxusresidenzen in verschiedenen Regionen Panamas — mit der Präzision, die wir aus Generationen von Schweizer Baumeistern übernommen haben: ehrliche Materialien, klare Geometrie und besessene Liebe zum Detail. In Santa María liegt der Fokus auf dem Leben im Grünen — Architektur, die sich in den Golfplatz, die Gärten und das tropische Licht von Panama-Stadt einfügt.",
       timeline_title: "So bauen wir",
       timeline: [
         {
@@ -1157,7 +1160,7 @@ window.ZOLL_I18N = {
         "Hallo Zollinger Panama, ich möchte Preise und Verfügbarkeit der Residenzen in Santa María erhalten."
     },
     footer: {
-      tagline: "Luxusresidenzen am Pazifik — Santa María, Panama.",
+      tagline: "Luxusresidenzen am Golfplatz — Santa María, Panama-Stadt.",
       col_residences: "Residenzen",
       col_company: "Unternehmen",
       col_investment: "Investition",

@@ -366,17 +366,17 @@ const CARD_IMAGES = {
   residence: {
     src: U("photo-1600596542815-ffad4c1539a9"),
     alt: {
-      es: "Interior luminoso de residencia de lujo con amplios ventanales",
-      en: "Bright interior of a luxury residence with floor-to-ceiling windows",
-      de: "Helles Interieur einer Luxusresidenz mit raumhohen Fenstern"
+      es: "Interior luminoso de residencia de lujo con amplios ventanales abiertos al jardín",
+      en: "Bright interior of a luxury residence with floor-to-ceiling windows onto the gardens",
+      de: "Helles Interieur einer Luxusresidenz mit raumhohen Fenstern zu den Gärten"
     }
   },
   penthouse: {
     src: U("photo-1600210492486-724fe5c67fb0"),
     alt: {
-      es: "Penthouse con terraza panorámica al atardecer",
-      en: "Penthouse with panoramic terrace at sunset",
-      de: "Penthouse mit Panorama-Terrasse im Sonnenuntergang"
+      es: "Penthouse con terraza panorámica sobre el campo de golf al atardecer",
+      en: "Penthouse with panoramic terrace overlooking the fairways at sunset",
+      de: "Penthouse mit Panorama-Terrasse mit Blick auf den Golfplatz im Sonnenuntergang"
     }
   },
   townhome: {
@@ -389,12 +389,12 @@ const CARD_IMAGES = {
   }
 };
 
-const HERO_IMG = U("photo-1507525428034-b723cf961d3e");
-const INTRO_IMG = U("photo-1613490493576-7fde63acd811");
-const AMENITIES_IMG = U("photo-1571896349842-33c89424de2d");
-const LOCATION_IMG = U("photo-1506929562872-bb421503ef21");
-const INVEST_IMG = U("photo-1577995201316-cd0a9eb3eca4");
-const ABOUT_IMG = U("photo-1512917774080-9991f1c4c750");
+const HERO_IMG = U("photo-1600585154526-990dced4db0d");       // contemporary villa framed by greenery
+const INTRO_IMG = U("photo-1613977257363-707ba9348227");      // modern tropical home at dusk
+const AMENITIES_IMG = U("photo-1600566753376-12c8ab7fb75b");  // luxury home with landscaped gardens
+const LOCATION_IMG = U("photo-1512917774080-9991f1c4c750");   // contemporary architecture, Panama City context
+const INVEST_IMG = U("photo-1577995201316-cd0a9eb3eca4");     // Panama City skyline
+const ABOUT_IMG = U("photo-1600047509807-ba8f99d2cdde");      // minimalist interior with garden light
 const GALLERY_IMGS = [
   U("photo-1613977257363-707ba9348227"),
   U("photo-1600566753376-12c8ab7fb75b"),
@@ -403,7 +403,7 @@ const GALLERY_IMGS = [
   U("photo-1600585154526-990dced4db0d"),
   U("photo-1512917774080-9991f1c4c750"),
   U("photo-1600047509807-ba8f99d2cdde"),
-  U("photo-1613977257363-707ba9348227")
+  U("photo-1613977257592-4a9a32f9141d")
 ];
 
 /* --------------- amenity icons (inline SVG) --------------- */
@@ -446,7 +446,7 @@ const AMENITY_ICONS = [
   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l5 7h-3l4 6H6l4-6H7z"/><path d="M12 16v5"/></svg>',
   // running
   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="15" cy="5" r="1.8"/><path d="M8 20l4-5 2 3 3-2M6 11l3-3 3 3 3-1"/></svg>',
-  // beach umbrella
+  // sun umbrella
   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 4c5 0 9 4 9 8H3c0-4 4-8 9-8z"/><path d="M12 4v16"/></svg>',
   // building
   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="3" width="14" height="18" rx="1"/><path d="M9 7h2M13 7h2M9 11h2M13 11h2M9 15h2M13 15h2"/></svg>',
