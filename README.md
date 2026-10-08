@@ -2,7 +2,28 @@
 
 Static one-page site. Plain HTML/CSS/JS. No build step.
 
-## Run
+## Live site
+
+**https://maxzollinger.github.io/zollinger-panama/**
+
+Hosted on GitHub Pages — accessible worldwide on any browser (desktop, iPhone Safari, Android, etc.). Every push to `main` auto-deploys in ~30–60 seconds.
+
+### Publish an edit
+
+Edit any file, then:
+
+```bash
+cd ~/zollinger-panama
+git add .
+git commit -m "Update: whatever changed"
+git push
+```
+
+Within ~30s the new version is live for every device in the world. Hard-refresh (⌘+Shift+R on Mac, Ctrl+F5 on Windows) if the browser cache serves the old version.
+
+To see the deploy progress: https://github.com/maxzollinger/zollinger-panama/actions
+
+## Run locally (optional)
 
 Double-click `index.html` — or from Git Bash:
 
